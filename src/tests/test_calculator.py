@@ -11,4 +11,4 @@ def test_app():
     assert my_calculator.get_hello_message() == "== Calculatrice v1.0 =="
 
 def test_addition():
-    assert my_calculator.addition(2, 3) == 5
+    assert my_calculator.addition(2, 4) == 6
